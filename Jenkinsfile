@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/Virendra-Nawkar/docker-jenkins'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t hello-java-app .'
