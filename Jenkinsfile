@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/hello-java-devops.git'
+                git 'https://github.com/Virendra-Nawkar/docker-jenkins'
             }
         }
 
